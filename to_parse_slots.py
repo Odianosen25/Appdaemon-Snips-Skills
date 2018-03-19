@@ -10,7 +10,6 @@ def parse_slots(self, data):
     for slot in data['slots']:
         if slot_data.get(slot['slotName'], None) == None: #therefore it hadn't read it before
             slot_data[slot['slotName']] = []
-#            if slot['slotName'] == 'Duration' and  slot['value']['kind'] == 'TimeInterval':
             if slot['value']['kind'] == 'TimeInterval':
                 slot_data[slot['slotName']] = [[slot['value']['from'], slot['value']['to']]]
                     
