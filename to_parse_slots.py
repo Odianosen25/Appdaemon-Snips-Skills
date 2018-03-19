@@ -4,7 +4,6 @@ def parse_slots(self, data):
     '''
     We extract the slots as a dict
     '''
-#    data = json.loads(data)
     slot_value = list()
     slot_data = dict()
 
