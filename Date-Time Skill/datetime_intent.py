@@ -7,7 +7,8 @@ class ProcessDateTime(hass.Hass):
 
   def initialize(self):
 #    self.logger = logging.getLogger('datetime_intent')
-    self.allowed_users = self.app_config["snips_core"]["users"]  #self.args["users"] self.global_vars['users'] 
+    #self.allowed_users = self.app_config["snips_core"]["users"]  #self.args["users"] self.global_vars['users']
+     pass
     
   def start_datetime(self, data):
     
