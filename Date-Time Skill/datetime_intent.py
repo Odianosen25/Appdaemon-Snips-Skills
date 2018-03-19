@@ -1,7 +1,4 @@
 import appdaemon.plugins.hass.hassapi as hass
-import os, sys
-dirname, filename = os.path.split(os.path.abspath(sys.argv[0]))
-import json
 from datetime import timezone, timedelta, datetime, time, date
 import time
 from num2words import num2words
